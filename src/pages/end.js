@@ -24,10 +24,6 @@ function End()
         window.location.href = "404";
     }
 
-    let dataStyle = {
-        fontSize: "2vh"
-    }
-
     let time = millisToMinutesAndSeconds(parseInt(datas[2]))
 
     return (
