@@ -1,0 +1,21 @@
+.navbar-container
+{
+    display: flex;
+    align-items: flex-end;
+    margin-top: 3vh;
+    margin-bottom: 3vh;
+}
+
+.navbar-button
+{
+    margin-left: 3vw;
+    text-decoration: underline #ffffff;
+    transition: all 0.5s ease-out;
+}
+
+.navbar-button:hover, .navbar-button:focus
+{
+    margin-left: 3vw;
+    text-decoration: underline #000000;
+    transition: all 0.8s ease-out;
+}

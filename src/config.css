@@ -1,0 +1,61 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+input, button, submit
+{
+    border:none;
+    outline: none;
+    background-color: transparent;
+    cursor: pointer;
+}
+
+* {
+    scrollbar-width: thin;
+    scrollbar-color: transparent #F3F3F3;
+}
+
+  /* Works on Chrome, Edge, and Safari */
+*::-webkit-scrollbar {
+    width: 12px;
+}
+
+*::-webkit-scrollbar-track {
+    background: transparent;
+}
+
+*::-webkit-scrollbar-thumb {
+    background-color: #F3F3F3;
+    border-radius: 20px;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@700&display=swap');
+
+.font-main {
+    font-family: 'Space Grotesk', sans-serif;
+    letter-spacing: 0.07rem
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Overpass:wght@600&display=swap');
+
+.font-second {
+    font-family: 'Overpass', sans-serif;
+}
+
+.color-main
+{
+    color: #546DE5;
+}
+
+.color-second
+{
+    color: #3DC1D3;
+}
+
+.center-horizontal
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
